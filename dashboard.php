@@ -41,24 +41,24 @@
     </div>
   </nav>
       <div class="jumbotron" style="background-color: white;">
-        <h1 class="display-4"> <img src="pesawat2.png" alt=""><?= $_SESSION['username']?></h1>
+        <h1 class="display-4"> <img src="pesawat2.png" <h> Peduli Diri </h> </h1>
         <p class="lead">Dashboard</p>
         <hr class="my-4">
       </div>
       <div class="container">
-        <div class="card" style="width: 18rem; border-top: 2px solid #43C0E8;">
+      <div >
           <div class="card-body">
-            <h5 class="card-title">Pengguna</h5>
+            <h2>  <?= $_SESSION['username']?> > <?= $_SESSION['nik']?> </h2>
           </div>
         </div>
-        <div class="card" style="width: 18rem; border-top: 2px solid #43C0E8;">
+        <div class="card" style="width: 20rem; border-top: 5px solid #43C0E8; border-bottom: 5px solid #43C0E8; border-left: 5px solid #43C0E8; border-right: 5px solid #43C0E8;">
           <div class="card-body">
-            <h5 class="card-title">Riwayat Perjalanan</h5>
+          <h5> <a class="nav-link" href="form.php"> Isi Data Perjalanan Anda </a></h5>
           </div>
         </div>
-        <div class="card" style="width: 18rem; border-top: 2px solid #43C0E8;">
+        <div class="card" style="width: 20rem; border-top: 5px solid #43C0E8; border-bottom: 5px solid #43C0E8; border-left: 5px solid #43C0E8; border-right: 5px solid #43C0E8;">
           <div class="card-body">
-            <h5 class="card-title">Perjalanan Hari Ini</h5>
+            <h5> <a class="nav-link" href="catatanperjalanan.php"> Lihat Data Perjalanan Anda </a></h5>
           </div>
         </div>
       </div>
